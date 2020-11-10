@@ -89,7 +89,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Maven Packages</name>
-            <url>https://maven.pkg.github.com/wutsi/wutsi-payment</url>
+            <url>https://maven.pkg.github.com/wutsi/wutsi-payment-mtn</url>
         </repository>
     </distributionManagement>
 
