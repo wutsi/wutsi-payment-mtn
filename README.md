@@ -1,7 +1,7 @@
 `wutsi-payment-mtn` is the implementation of [wutsi-payment](https://github.com/wutsi/wutsi-payment) for MTN MoMo.
 
 
-![](https://github.com/wutsi/wutsi-core/workflows/build/badge.svg)
+![](https://github.com/wutsi/wutsi-payment-mtn/workflows/build/badge.svg)
 ![](https://img.shields.io/badge/jdk-1.8-brightgreen.svg)
 ![](https://img.shields.io/badge/language-kotlin-blue.svg)
 ![](https://img.shields.io/badge/maven-3.6+-blue)
