@@ -16,7 +16,6 @@
         <!-- Library versions - in ALPHABETICAL ORDER-->
         <http-component.version>4.5.13</http-component.version>
         <wutsi-payment.version>1.1.0</wutsi-payment.version>
-        <wutsi-core.version>1.22.0</wutsi-core.version>
 
         <jackson.version>2.10.3</jackson.version>
         <junit.version>4.13.1</junit.version>
@@ -30,12 +29,6 @@
             <groupId>com.wutsi</groupId>
             <artifactId>wutsi-payment</artifactId>
             <version>${wutsi-payment.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.wutsi</groupId>
-            <artifactId>wutsi-core</artifactId>
-            <version>${wutsi-core.version}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -93,6 +86,12 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository>
+            <id>github-wutsi-payment</id>
+            <url>https://maven.pkg.github.com/wutsi/wutsi-payment</url>
+        </repository>
+    </repositories>
 
     <build>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>

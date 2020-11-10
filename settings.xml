@@ -6,7 +6,7 @@
 
     <servers>
         <server>
-            <id>github</id>
+            <id>github-wutsi-payment</id>
             <username>wutsi</username>
             <password>${GITHUB_TOKEN}</password>
         </server>
