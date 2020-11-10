@@ -1,9 +1,9 @@
 package com.wutsi.payment.mtn
 
-import com.wutsi.payment.Customer
 import com.wutsi.payment.Fixtures
 import com.wutsi.payment.Gateway
 import com.wutsi.payment.MobileWallet
+import com.wutsi.payment.Party
 import com.wutsi.payment.PaymentStatus
 import com.wutsi.payment.TransferRequest
 import com.wutsi.payment.WalletType
@@ -22,9 +22,10 @@ class MtnGatewayTest {
                 amount = 15000.0,
                 currency = "EUR",
                 description = "Your Wutsi revenus for Oct 2020",
-                customer = Customer(
+                party = Party(
                         firstName = "Ray",
-                        lastName = "Sponsible"
+                        lastName = "Sponsible",
+                        fullName = "Ray Sponsible"
                 ),
                 wallet = MobileWallet(
                         number = Fixtures.NUMBER_PENDING,

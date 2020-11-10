@@ -69,7 +69,7 @@ class MtnGateway(
                 currency = request.currency,
                 amount = request.amount.toString(),
                 payerMessage = request.description ?: "-",
-                payeeNote = request.description ?: "-",
+                payeeNote = "Transfer of ${request.amount} ${request.currency} to ${request.party.fullName}",
                 externalId = request.externalId
         )
 

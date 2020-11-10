@@ -15,7 +15,7 @@
 
         <!-- Library versions - in ALPHABETICAL ORDER-->
         <http-component.version>4.5.13</http-component.version>
-        <wutsi-payment.version>1.1.0</wutsi-payment.version>
+        <wutsi-payment.version>1.2.0</wutsi-payment.version>
 
         <jackson.version>2.10.3</jackson.version>
         <junit.version>4.13.1</junit.version>
